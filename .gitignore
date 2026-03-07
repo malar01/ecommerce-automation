@@ -1,4 +1,36 @@
+# Maven build folder
 target/
+
+# Eclipse IDE settings
 .settings/
+
+# Compiled class files
+*.class
+
+# Logs
 *.log
+
+# TestNG reports
 test-output/
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# macOS system files
+.DS_Store
+
+# Java virtual machine crash logs
+hs_err_pid*
+replay_pid*
