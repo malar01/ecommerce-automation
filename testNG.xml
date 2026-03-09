@@ -1,12 +1,23 @@
+<<<<<<< HEAD
 <suite name="EcommerceAutomationSuite">
     <test name="ChromeTest">
         <parameter name="browser" value="chrome"/>
+=======
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EcommerceAutomationSuite">
+    <test name="ChromeTest">
+    <parameter name="browser" value="chrome"/>
+>>>>>>> 24b67434702b4b7d1108b71c9a57623064c3f974
         <classes>
             <class name="com.ecommerce.tests.LoginTest"/>
         </classes>
     </test>
     <test name="SafariTest">
+<<<<<<< HEAD
         <parameter name="browser" value="safari"/>
+=======
+    <parameter name="browser" value="safari"/>
+>>>>>>> 24b67434702b4b7d1108b71c9a57623064c3f974
         <classes>
             <class name="com.ecommerce.tests.LoginTest"/>
         </classes>

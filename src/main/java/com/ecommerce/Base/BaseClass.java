@@ -30,8 +30,14 @@ public void initBowser(String browser) {
 }
 @AfterMethod
 public void tearDown() {
+<<<<<<< HEAD
 	if(driver != null) {
 	driver.quit();
 	}
 }
 }
+=======
+	driver.quit();
+}
+}
+>>>>>>> 24b67434702b4b7d1108b71c9a57623064c3f974

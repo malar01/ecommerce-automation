@@ -14,15 +14,26 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+<<<<<<< HEAD
 			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
+=======
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+>>>>>>> 24b67434702b4b7d1108b71c9a57623064c3f974
 		</attributes>
 	</classpathentry>
 	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
 		<attributes>
+<<<<<<< HEAD
 			<attribute name="test" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
+=======
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+>>>>>>> 24b67434702b4b7d1108b71c9a57623064c3f974
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>

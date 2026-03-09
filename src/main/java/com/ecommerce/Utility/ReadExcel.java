@@ -13,7 +13,11 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadExcel {
 
+<<<<<<< HEAD
 	public Object[][] ReadExcelData(String filePath,String sheetName) throws IOException {
+=======
+	public static Object[][] ReadExcelData(String filePath,String sheetName) throws IOException {
+>>>>>>> 24b67434702b4b7d1108b71c9a57623064c3f974
 		FileInputStream file=new FileInputStream(filePath);
 		Workbook workbook=new XSSFWorkbook(file);
 		Sheet sheet=workbook.getSheet(sheetName);
@@ -32,4 +36,8 @@ public class ReadExcel {
 		file.close();
 		return data;
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 24b67434702b4b7d1108b71c9a57623064c3f974
