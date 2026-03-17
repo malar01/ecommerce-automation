@@ -12,15 +12,13 @@ import com.ecommerce.Utility.ReadExcel;
 
 public class LoginTest extends BaseClass {
 	LoginPage login;
-	ReadExcel excel;
  
 @DataProvider(name="LoginData")
   public Object[][] loginData() throws IOException {
-	  return excel.ReadExcelData("/Users/macbook/Documents/TestData.xlsx", "ValidLogin");
+	  return ReadExcel.ReadExcelData("/Users/macbook/Documents/TestData.xlsx", "ValidLogin");
   }
 @Test(dataProvider="LoginData")
   public void LoginPageTest(String user,String pass) {
-	excel=new ReadExcel();
 	  login = new LoginPage(driver);
 	  login.loginUser(user,pass);
 	  String actualTitle =driver.getTitle();
