@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -16,7 +17,7 @@ protected WebDriver driver;
 
 @BeforeMethod
 @Parameters("browser")
-public void initBowser(String browser) {
+public void initBowser(@Optional("chrome") String browser) {
 	if(browser.equalsIgnoreCase("chrome")) {
 	driver=new ChromeDriver();
 	WebDriverManager.chromedriver().setup();
